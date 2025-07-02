@@ -4,17 +4,94 @@
 
 ## **Table of Content**
 
-### [YouTube Playlist](https://www.youtube.com/watch?v=FsVAvgR9ifY&list=PLJ958Ls6nowW0tgwl1yoL2oF90PeevFvG)
+### [YouTube Playlist](#)
 
 ---
+First there will complete video how to setup development enviornment for mediapipe in Vs Code 
+```mermaid
+flowchart LR
+    A[Tutorial 👉 👨‍🏫 ] -->
+    B[Project 👉 🚧]
+```
+```mermaid
+flowchart TD
+
+    Start([Course Start])
+    Setup[Setup Development Environment]
+    FaceDet[Face Detection]
+    HandDet[Hand Detection]
+    FaceMesh[Face Mesh]
+    PoseEst[Pose Estimation]
+    SelfieSeg[Selfie Segmentation]
+ 
+    
+
+    Start --> Setup
+    Setup --> FaceDet
+    FaceDet --> HandDet
+    HandDet --> FaceMesh
+    FaceMesh --> PoseEst
+    PoseEst --> SelfieSeg
+
+    %% Setup Development Environment
+    subgraph S1 [Setup Development Environment]
+        S1A[Setup Development Env 👨‍🏫] 
+        Setup --> S1A
+    end
+
+    %% Face Detection
+    subgraph S2 [Face Detection]
+        FD1[Face Detection 👨‍🏫]
+        FD2[Project 1 🚧]
+        FD3[Project 2 🚧]
+        FaceDet --> FD1 --> FD2 --> FD3
+    end
+
+    %% Hand Detection
+    subgraph S3 [Hand Detection]
+        HD1[Hand Landmarks Detection 👨‍🏫]
+        HD2[Project 1 🚧]
+        HD3[Project 2 🚧]
+        HandDet --> HD1 --> HD2 --> HD3
+    end
+
+    %% Face Mesh
+    subgraph S4 [Face Mesh]
+        FM1[Face Mesh 👨‍🏫]
+        FM2[Project 1 🚧]
+        FM3[Project 2 🚧]
+        FaceMesh --> FM1 --> FM2 --> FM3
+    end
+
+    %% Pose Estimation
+    subgraph S5 [Pose Estimation]
+        PE1[Pose Estimation 👨‍🏫]
+        PE2[Project 1 🚧]
+        PE3[Project 2 🚧]
+        PoseEst --> PE1 --> PE2 --> PE3
+    end
+
+    %% Selfie Segmentation
+    subgraph S6 [Selfie Segmentation]
+        SS1[Selfie Segmentation 👨‍🏫]
+        SS2[Project 1 🚧]
+        SS3[Project 2 🚧]
+        SelfieSeg --> SS1 --> SS2 --> SS3
+    end
+```
+### Setup Development Enviroment 
+
+| No: | Topic Name | Status    | Type       | YouTube Video 🎥 Link | Thumbnail 🖼️ |
+|-----|---------------|--------|------------|-----------------------|---------------|
+| 1   | Setup Development Env | ❌ | Tutorial 👨‍🏫 | Pending...  | Video's thumbnail    |
 
 ### Face Detection
 
 | No: | Topic Name | Status    | Type       | YouTube Video 🎥 Link | Thumbnail 🖼️ |
 |-----|---------------|--------|------------|-----------------------|---------------|
 | 1   | Face Detection  | ❌ | Tutorial 👨‍🏫 | Pending...  | Video's thumbnail    |
-| 2   | ------------- | ❌      | Project 🚧   | Pending... | Video's thumbnail |
-| 3   | ------------  | ❌      | Project 🚧   | Pending... | Video's thumbnail |
+| 2   | Project1 | ❌      | Project 🚧   | Pending... | Video's thumbnail |
+| 3   | Project2  | ❌      | Project 🚧   | Pending... | Video's thumbnail |
 
 
 ---
@@ -23,10 +100,9 @@
 
 | No: | Topic Name               | Status | Type         | YouTube Video 🎥 Link | Thumbnail 🖼️|
 |-----|--------------------------|--------|--------------|----------------------|-------------|
-| 0   | Introduction to Hand Detection | ❌      | Introduction | Pending... | Video's thumbnail|
 | 1   | Hand Landmarks Detection | ❌      | Tutorial 👨‍🏫 | Pending...| Video's thumbnail|
-| 2   | ------ | ❌ | Project 🚧   | Pending...| Video's thumbnail|
-| 3   | ------ | ❌ | Project 🚧   | Pending...| Video's thumbnail|
+| 2   | Project 1 | ❌ | Project 🚧   | Pending...| Video's thumbnail|
+| 3   | Project2 | ❌ | Project 🚧   | Pending...| Video's thumbnail|
 
 ---
 
@@ -35,8 +111,8 @@
 | No: | Topic Name | Status | Type         | YouTube Video 🎥 Link | Thumbnail 🖼️|
 |-----|------------|--------|--------------|----------------------|-------------|
 | 1   | Face Mesh  | ❌ | Tutorial 👨‍🏫 | Pending...  | Video's thumbnail|
-| 2   | ------     | ❌ | Project 🚧   | Pending... | Video's thumbnail|
-| 3   | ------     | ❌ | Project 🚧   | Pending... | Video's thumbnail|
+| 2   | Project 1     | ❌ | Project 🚧   | Pending... | Video's thumbnail|
+| 3   | Project 2     | ❌ | Project 🚧   | Pending... | Video's thumbnail|
 
 ---
 
@@ -45,8 +121,8 @@
 | No: | Topic Name      | Status | Type         | YouTube Video 🎥 Link |Thumbnail 🖼️|
 |-----|-----------------|--------|--------------|----------------------| -----------|
 | 1   | Pose Estimation | ❌ | Tutorial 👨‍🏫 | Pending...  |Video's thumbnail|
-| 2   | ------          | ❌ | Project 🚧   | Pending... | Video's thumbnail|
-| 3   | ------          | ❌ | Project 🚧   | Pending... | Video's thumbnail|
+| 2   | Project 1          | ❌ | Project 🚧   | Pending... | Video's thumbnail|
+| 3   | Project 2       | ❌ | Project 🚧   | Pending... | Video's thumbnail|
 
 ---
 
@@ -55,8 +131,8 @@
 | No: | Topic Name          | Status | Type         | YouTube Video 🎥 Link |Thumbnail 🖼️|
 |-----|---------------------|--------|--------------|----------------------|------------|
 | 1   | Selfie Segmentation | ❌ | Tutorial 👨‍🏫 | Pending... | Video's thumbnail|
-| 2   | ------              | ❌ | Project 🚧   | Pending...| Video's thumbnail|
-| 3   | ------              | ❌ | Project 🚧   | Pending...| Video's thumbnail|
+| 2   | Project 1              | ❌ | Project 🚧   | Pending...| Video's thumbnail|
+| 3   | Project 2           | ❌ | Project 🚧   | Pending...| Video's thumbnail|
 
 ---
 
