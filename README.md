@@ -7,7 +7,6 @@
 ### [YouTube Playlist](#)
 
 ---
-First there will complete video how to setup development enviornment for mediapipe in Vs Code 
 ```mermaid
 flowchart LR
     A[Tutorial 👉 👨‍🏫 ] -->
@@ -79,7 +78,7 @@ flowchart TD
         SelfieSeg --> SS1 --> SS2 --> SS3
     end
 ```
-### Setup Development Enviroment 
+### Setup Development Environment 
 
 | No: | Topic Name | Status    | Type       | YouTube Video 🎥 Link | Thumbnail 🖼️ |
 |-----|---------------|--------|------------|-----------------------|---------------|
